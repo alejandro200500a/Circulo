@@ -16,6 +16,10 @@ public class Circulo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int radio=5;
+        int diametro=4;
+        
+    Circunferencia cr =  new Circunferencia(radio,diametro);
+    System.out.println(cr.toString());
     }
-    
 }
